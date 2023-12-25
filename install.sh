@@ -15,5 +15,8 @@ sudo dnf install zsh -y
 # Vim+NVim
 sudo dnf install vim neovim -y
 
+# KeePassXC
+sudo dnf install keepassxc -y
+
 # Oh My ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
