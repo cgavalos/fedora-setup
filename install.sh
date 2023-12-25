@@ -7,7 +7,7 @@ sudo dnf install xorg-x11-drv-nvidia-cuda -y #optional for cuda/nvdec/nvenc supp
 gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
 
 # Android Studio
-flatpak install flathub com.google.AndroidStudio -y
+# flatpak install flathub com.google.AndroidStudio -y
 
 # LibreWolf
 flatpak install flathub io.gitlab.librewolf-community -y
