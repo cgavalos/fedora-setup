@@ -36,5 +36,10 @@ sudo dnf install calibre -y
 # GIMP
 sudo dnf install gimp -y
 
+# VeraCrypt
+curl -O https://forensics.cert.org/cert-forensics-tools-release-39.rpm
+sudo rpm -Uvh cert-forensics-tools-release-39.rpm
+sudo dnf --enablerepo=forensics install VeraCrypt
+
 # Oh My ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
