@@ -9,6 +9,18 @@ gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffe
 # Android Studio
 flatpak install flathub com.google.AndroidStudio -y
 
+# LibreWolf
+flatpak install flathub io.gitlab.librewolf-community -y
+
+# VSCode
+flatpak install flathub com.visualstudio.code -y
+
+# Blender
+sudo dnf install blender -y
+
+# JetBrains Mono Font
+sudo dnf install jetbrains-mono-fonts -y
+
 # ZSH
 sudo dnf install zsh -y
 
@@ -17,6 +29,12 @@ sudo dnf install vim neovim -y
 
 # KeePassXC
 sudo dnf install keepassxc -y
+
+# Calibre
+sudo dnf install calibre -y
+
+# GIMP
+sudo dnf install gimp -y
 
 # Oh My ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
