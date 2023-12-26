@@ -36,6 +36,12 @@ sudo dnf install calibre -y
 # GIMP
 sudo dnf install gimp -y
 
+# Tor Browser
+sudo dnf install torbrowser-launcher -y
+
+# QBittorrent
+sudo dnf install qbittorrent -y
+
 # VeraCrypt
 curl -O https://forensics.cert.org/cert-forensics-tools-release-39.rpm
 sudo rpm -Uvh cert-forensics-tools-release-39.rpm
