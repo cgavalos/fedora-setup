@@ -45,6 +45,9 @@ sudo dnf install qbittorrent -y
 # Grub Customizer
 sudo dnf install grub-customizer -y
 
+# Steam
+sudo dnf install steam -y
+
 # VeraCrypt
 curl -O https://forensics.cert.org/cert-forensics-tools-release-39.rpm
 sudo rpm -Uvh cert-forensics-tools-release-39.rpm
