@@ -59,6 +59,9 @@ sudo dnf install -y seahorse
 sudo dnf install -y java-17-openjdk
 sudo dnf install -y java-17-openjdk-devel
 
+# InkScape
+sudo dnf install -y inkscape
+
 # VeraCrypt
 curl -O https://forensics.cert.org/cert-forensics-tools-release-39.rpm
 sudo rpm -Uvh cert-forensics-tools-release-39.rpm
