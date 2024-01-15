@@ -9,9 +9,6 @@ sudo dnf install xorg-x11-drv-nvidia-cuda -y #optional for cuda/nvdec/nvenc supp
 # Android Studio
 # flatpak install flathub com.google.AndroidStudio -y
 
-# LibreWolf
-flatpak install flathub io.gitlab.librewolf-community -y
-
 # VSCode
 flatpak install flathub com.visualstudio.code -y
 
@@ -47,6 +44,16 @@ sudo dnf install grub-customizer -y
 
 # Steam
 sudo dnf install steam -y
+
+# LibreWolf
+sudo dnf config-manager --add-repo https://rpm.librewolf.net/librewolf-repo.repo
+sudo dnf install -y librewolf
+
+# RetroArch
+sudo dnf install -y retroarch
+
+# Keyring Fix
+sudo dnf install -y seahorse
 
 # VeraCrypt
 curl -O https://forensics.cert.org/cert-forensics-tools-release-39.rpm
