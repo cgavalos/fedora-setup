@@ -55,6 +55,9 @@ sudo dnf install -y retroarch
 # Keyring Fix
 sudo dnf install -y seahorse
 
+# JDK
+sudo dnf install -y java-17-openjdk
+
 # VeraCrypt
 curl -O https://forensics.cert.org/cert-forensics-tools-release-39.rpm
 sudo rpm -Uvh cert-forensics-tools-release-39.rpm
