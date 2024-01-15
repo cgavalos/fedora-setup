@@ -57,6 +57,7 @@ sudo dnf install -y seahorse
 
 # JDK
 sudo dnf install -y java-17-openjdk
+sudo dnf install -y java-17-openjdk-devel
 
 # VeraCrypt
 curl -O https://forensics.cert.org/cert-forensics-tools-release-39.rpm
