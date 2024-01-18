@@ -10,7 +10,18 @@ sudo dnf install xorg-x11-drv-nvidia-cuda -y #optional for cuda/nvdec/nvenc supp
 # flatpak install flathub com.google.AndroidStudio -y
 
 # VSCode
-flatpak install flathub com.visualstudio.code -y
+# flatpak install flathub com.visualstudio.code -y
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+cat <<EOF | sudo tee /etc/yum.repos.d/vscode.repo
+[code]
+name=Visual Studio Code
+baseurl=https://packages.microsoft.com/yumrepos/vscode
+enabled=1
+gpgcheck=1
+gpgkey=https://packages.microsoft.com/keys/microsoft.asc
+EOF
+sudo dnf check-update
+sudo dnf install code
 
 # Blender
 sudo dnf install blender -y
