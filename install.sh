@@ -20,7 +20,7 @@ sudo dnf config-manager --set-enabled forensics
 sudo dnf check-update -y
 
 # Programs
-sudo dnf install -y blender jetbrains-mono-fonts zsh vim neovim keepassxc calibre gimp torbrowser-launcher qbittorrent steam librewolf retroarch seahorse inkscape code VeraCrypt
+sudo dnf install -y blender jetbrains-mono-fonts zsh vim neovim keepassxc calibre gimp torbrowser-launcher qbittorrent steam librewolf retroarch seahorse inkscape code VeraCrypt freecad cura
 
 # Oh My ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
